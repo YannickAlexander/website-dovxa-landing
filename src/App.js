@@ -1,14 +1,16 @@
 import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
+import IngineFest from './pages/IngineFest';
 
 function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-[#FB5607]">
-      <img
-        src="/images/logo-dovxa-white.png"
-        alt="Dovxa Logo"
-        className="w-72 animate-pulse"
-      />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/inginefest" element={<IngineFest />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -2,10 +2,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello Dovxa!
-      </h1>
+    <div className="flex items-center justify-center min-h-screen bg-[#FB5607]">
+      <img
+        src="/images/logo-dovxa-white.png"
+        alt="Dovxa Logo"
+        className="w-72 animate-pulse"
+      />
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const IngineFest = () => {
+const IgniteFest = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-[#812DCF]">
       
@@ -21,4 +21,4 @@ const IngineFest = () => {
   )
 }
 
-export default IngineFest
+export default IgniteFest
